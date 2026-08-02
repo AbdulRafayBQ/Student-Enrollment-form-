@@ -1,0 +1,556 @@
+*{ 
+    margin: 0; 
+    padding: 0px; 
+}
+
+body{ 
+}
+
+.heading {
+ background: linear-gradient(to right, 
+#7C83D6, 
+#6B72C9);
+color: white;
+  text-align: center;
+  padding: 25px;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 20px;
+}
+
+.heading h1 {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.heading p {
+  font-size: 15px;
+}
+
+.section1 {
+  border: 2px solid 
+#f5c2cf;
+  background: 
+#fff6f8;
+  border: cover;
+} 
+.personaldetails {
+    font-weight: 600px;
+  color: 
+#D65A7A;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgb(235, 220, 220);
+}
+
+.name{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+#name{
+    width: 550px;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid 
+#dcdcdc;
+        border-radius: 5px;
+
+}
+
+.dob{
+    margin-left: 700px;
+    margin-top: -36px;
+    font-size: 20px;
+}
+
+#dob{
+    width: 300px;
+    height: 35px;
+    border: 1px solid 
+#dcdcdc;
+    padding-left: 10px;
+    color: 
+#a3a3a3;
+        border-radius: 5px;
+
+}
+
+.gender{
+    margin-left: 10px;
+    margin-bottom: 30px;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+#male{
+    margin-left: 26px;
+}
+
+#female{
+    margin-left: 130px;
+}
+
+#others{
+    margin-left: 100px;
+}
+
+.blood{
+    margin-left: 700px;
+    margin-top: -55px;
+    font-size: 20px;
+}
+
+#bloodgroup{
+    margin-left: 6px;
+    border: 1px solid 
+#dcdcdc;
+    color: 
+#a3a3a3;
+    border-radius: 5px;
+    width: 312px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.email{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.email label{
+    display: inline-block;
+    width: 130px;
+    font-size: 20px;
+}
+
+.email input{
+    width: 525px;
+    height: 35px;
+    border: 1px solid 
+#d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: -6px;
+}
+
+.phone{
+    margin-left: 700px;
+    margin-top: -35px;
+}
+
+.phone label{
+    display: inline-block;
+    width: 130px;
+    font-size: 20px;
+}
+
+#phonenumber{
+    width: 300px;
+    height: 35px;
+    border: 1px solid 
+#d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: -12px;
+}
+
+.home{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.home label{
+    display: inline-block;
+    width: 130px;
+    font-size: 20px;
+
+}
+
+#homeaddress{
+    width: 975px;
+    height: 45px;
+    border: 1px solid 
+#d9d9d9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-left: 130px;
+}
+
+
+.country{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.country label{
+    display: inline-block;
+    width: 130px;
+    font-size: 20px;
+}
+
+#country{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.state{
+    margin-left: 480px;
+    margin-top: -35px;
+}
+
+.state label{
+    display: inline-block;
+    width: 110px;
+    font-size: 20px;
+}
+
+#state{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.city{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.city label{
+    display: inline-block;
+    width: 130px;
+    font-size: 20px;
+}
+
+#city{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.zipcode{
+    margin-left: 480px;
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+
+.zipcode label{
+    display: inline-block;
+    width: 110px;
+    font-size: 20px;
+}
+
+#zipcode{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.section2{
+    border: 2px solid #b8dcb4;
+    background: #f4faf3;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.acadmic{
+    color: #4C8C4A;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(222, 235, 220);
+}
+
+.acadmic h1{
+    font-size: 22px;
+}
+
+.grade{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#class{
+    margin-left: 6px;
+    border: 1px solid #dcdcdc;
+    color: #a3a3a3;
+    border-radius: 5px;
+    width: 312px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.previousschool{
+    margin-left:550px;
+    margin-top: -34px;
+    font-size: 20px;
+}
+
+.previousschool input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+.medium{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#medium{
+    margin-left: 6px;
+    border: 1px solid #dcdcdc;
+    color: #a3a3a3;
+    border-radius: 5px;
+    width: 312px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.subject{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.subject input{
+    margin-left: 15px;
+}
+
+#math{
+    font-size: 20px;
+}
+
+.section3{
+    border: 2px solid #b9c6e8;
+    background: #f4f6fc;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+.parents{
+    color: #3D6FB4;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(220, 228, 240);
+}
+
+.parents h1{
+    font-size: 22px;
+}
+
+.father{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.father label{
+    display: inline-block;
+    width: 130px;
+}
+
+#parentsdetails{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.mother{
+    margin-left: 480px;
+    margin-top: -35px;
+    font-size: 20px;
+}
+
+.mother label{
+    display: inline-block;
+    width: 110px;
+}
+
+#mother{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.parphone{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.parphone label{
+    display: inline-block;
+    width: 130px;
+}
+
+#parphone{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.paremail{
+    margin-left: 480px;
+    margin-top: -35px;
+    font-size: 20px;
+}
+
+.paremail label{
+    display: inline-block;
+    width: 110px;
+}
+
+#paremail{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.occupation{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.occupation label{
+    display: inline-block;
+    width: 130px;
+}
+
+#occupation{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.homeaddress2{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#homeaddress2{
+    width: 975px;
+    height: 45px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -35px;
+    margin-left: 135px;
+}
+
+
+.section4{
+    border: 2px solid #d9c2e8;
+    background: #faf5fc;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.declaraction{
+    color: #7C4DA8;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(232, 220, 240);
+}
+
+.declaraction h1{
+    font-size: 22px;
+}
+
+.fparagraph{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #444;
+    width: 950px;
+}
+
+.signature{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.signature label{
+    display: inline-block;
+    width: 130px;
+}
+
+#signature{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.date2{
+    margin-left: 480px;
+    margin-top: -35px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.date2 label{
+    display: inline-block;
+    width: 110px;
+}
+
+#date2{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #dcdcdc;
+    padding-left: 10px;
+    color: #a3a3a3;
+    border-radius: 5px;
+}
+
+.submitbtn{
+    width: 96%;
+    margin: 30px 1% 30px 10px;
+    text-align: center;
+}
+
+.submitbtn button{
+    background-color: #6B72C9;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 45px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
